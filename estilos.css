@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #a31a08 0%, #ca6411 100%);
+    background: linear-gradient(135deg, #a31a08 0%, #ca6411 100%);     /*se cambia el color el fondo*/
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -80,18 +80,18 @@ body:has(#back:target) .credential-card:first-child {
 }
 
 /* FRENTE */
-.card-front {
+.card-front {                                                            
     transform: rotateY(0deg);
 }
 
 /* REVERSO */
 .card-back {
-    background: linear-gradient(145deg, #eef2ff 0%, #ffffff 100%);
+    background: linear-gradient(145deg, #eef2ff 0%, #ffffff 100%);     /*cambio de color parte trasera*/
 }
 
 /* Header frente */
 .header {
-    background: linear-gradient(135deg, #318004 0%, #0c4102 100%);
+    background: linear-gradient(135deg, #318004 0%, #0c4102 100%);     /*se cambia el color de el encabezado*/
     color: white;
     text-align: center;
     padding: 20px 15px 15px;
@@ -174,7 +174,7 @@ body:has(#back:target) .credential-card:first-child {
     display: block;
     text-align: center;
     text-decoration: none;
-    background: linear-gradient(135deg, #a50a0a, #000000);
+    background: linear-gradient(135deg, #a50a0a, #000000);                 /*se cambia color al boton*/
     color: white;
     border: none;
     padding: 12px;
@@ -199,7 +199,7 @@ body:has(#back:target) .credential-card:first-child {
 
 /* REVERSO estilos */
 .back-header {
-    background: linear-gradient(135deg, #0da807 0%, #069b1e 100%);
+    background: linear-gradient(135deg, #0da807 0%, #069b1e 100%);                 /*se cambia de color el encabezdo de atras*/
     color: white;
     text-align: center;
     padding: 20px;
@@ -239,7 +239,7 @@ body:has(#back:target) .credential-card:first-child {
 }
 
 .label-back {
-    font-weight: bold;
+    font-weight: bold;                                                   /*se cmbia color e etiqueta*/
     color: #001f3f;
     font-size: 0.7rem;
     text-transform: uppercase;
